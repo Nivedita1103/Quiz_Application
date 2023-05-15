@@ -39,7 +39,7 @@ public class Quiz extends JFrame implements ActionListener {
         add(qno);
         
         question = new JLabel();
-        question.setBounds(150, 450, 900, 30);
+        question.setBounds(150, 450, 1000, 30);
         question.setFont(new Font("Tahoma", Font.PLAIN, 24));
         question.setForeground(Color.WHITE);
         add(question);
@@ -235,7 +235,7 @@ public class Quiz extends JFrame implements ActionListener {
         g.setFont(new Font("Tahoma", Font.BOLD, 25));
         
         if (timer > 0) { 
-            g.drawString(time, 1100, 500);
+            g.drawString(time, 1100, 450);
         } else {
             g.drawString("Times up!!", 1100, 500);
         }
